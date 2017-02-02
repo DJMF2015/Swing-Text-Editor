@@ -1,0 +1,212 @@
+Scotland has voted "No" to independence in the historic referendum on the nation's future.
+For now, that means it will continue to form an integral part of the UK - but for Scottish devolution, the process of granting powers from Westminster to the Scottish parliament, it's far from business as usual.
+The focus will now be on how the UK government delivers its promise of more powers for the Scottish parliament, based at Holyrood, Edinburgh.
+Here's what's likely to happen next.
+
+
+
+textWords = textArea.getText();
+searchWords = textPosition.SetText?
+String searchWord = textWords.indexOf(textPosition,i)
+
+while (textposition >=0){
+  textPosition = textWords.indexOf(searchWord, textposition);
+if (pos >=0){
+textWords.append("" + textPosition + "\n");
+
+textPosition++;
+}
+}
+
+ 
+
+int startPos;
+textWords = textArea.getText();
+StartPos (int) = textWords.indexOf(searchText, textPosition); 
+startPos = textWords.indexOf(searchText, textPosition)
+if (startPos >= 0);
+   textWords.append(position1 + position2 + "n\");
+    return found = true;
+else return found = false;
+
+
+
+   // String textWords; 
+        textWords = textArea.getText(); //*** get current text
+      // line counts.
+        int charCount = textWords.length(); //* get text length
+        int charcount = 0;  // initialise line count
+        int lineStart = 0; // initialise line start
+        for (int i = 0; i < linestart; i++) { // ***     if the line has characters (i.e. loop index - line start > 0)
+            if (textWords.charAt(i) == '\n'  )
+                lineStart++;
+
+int startPos = 0;
+         int endPos = searchText.length() + startPos;
+        textWords = textArea.getText();
+        startPos = textWords.indexOf(searchText, textPosition);
+       
+        if (startPos >= 0);
+        if (found)
+            setSelection( startPos, endPos);
+
+
+ 
+    public boolean replaceText(String searchText, String replacementText) { // Replace text in main area
+        boolean replaced = false;   // initialise replace result
+        int startPos = 0;
+        int endPos = searchText.length()+startPos;
+        // get searchText length??
+
+        startPos = textWords.indexOf(searchText, textPosition);
+	if (startPos >= 0 && searchText.length() > 0)
+	setSelection(startPos, endPos+replacementText.length()));//??
+        textPosition = textArea.getCaretPosition();//??
+            textArea.replaceRange(replacementText, startPos, endPos-1);
+           //replaced = true;??
+           return replaced;
+
+        // *** get search text length
+        // *** get replacement text length
+        // *** set whether search text can be found
+        // *** if search text is found
+        // ***   calculate start of search text
+        // ***   update text, replacing the found text with the replacement text
+        // ***   set the text area to the new text
+        // ***   move the text position to the end of the replacement text
+        // ***   set selection using start and end of replacement text
+        // ***   note text as replaced
+        return replaced;       
+
+
+public boolean replaceText(String searchText, String replacementText) { // Replace text in main area
+        boolean replaced = false;   // initialise replace result
+        int startPos = 0;
+        startPos = textWords.indexOf(searchText, textPosition);
+        if (startPos >= 0 && searchText.length() > 0)
+
+
+
+public int countLines() {  
+    int Count = 0;
+    int lineStart=0;
+    getText();
+    textLength=textWords.length();
+
+    for(int charCount=0;charCount<textLength;charCount++){
+        char c;
+        c = textWords.charAt(charCount);
+        if (c =='\n' && Character.isLetter(textWords.charAt(0)) == true){
+            if (charCount-lineStart>0){
+                Count++;
+            }
+            lineStart = charCount++;
+        }
+    }
+    if ((textWords.endsWith("\n")==false) && (textLength-lineStart>0)){
+                  Count++;
+
+    }
+    return Count;
+}
+            textArea.replaceRange(searchText, startPos, startPos   + replacementText.length());
+   
+ wordCount = 0;
+           for (int i = 0; i < charCount; i++) {
+              boolean startOfWord;  // Is character i the start of a word?
+              if ( Character.isLetter(text.charAt(i)) == false )
+                 startOfWord = false;  // No.  It's not a letter.
+              else if (i == 0)
+                 startOfWord = true;   // Yes.  It's a letter at start of text.
+              else if ( Character.isLetter(text.charAt(i-1)) )
+                 startOfWord = false;  // No.  It's a letter preceded by a letter.
+              else if ( textWords.charAt(i-1) == '\'' && i > 1 
+                                   && Character.isLetter(text.charAt(i-2)) )
+                 startOfWord = false;  // No.  It's a continuation of a word
+                                       //      after an apostrophe.
+              else
+                 startOfWord = true;   // Yes.  It's a letter preceded by
+                                       //       a non-letter.
+              if (startOfWord)
+                 wordCont5t++;
+           }
+           
+           /* The number of lines is just one plus the number of times the
+              end of line character, '\n', occurs in the text. */
+           
+           lineCt = 1;
+           for (int i = 0; i < charCt; i++) {
+              if (text.charAt(i) == '\n')
+                 lineCt++;
+           }
+
+textWords = textArea.getText();
+
+textWords = textArea.replaceAll("\\t", "");
+textWords = textArea.replaceAll("\\n", "");
+textWords = textArea.replaceAll(" ", "");
+
+ public int countLines() {  
+int Count = 0;
+int lineStart=0;
+gettext();
+textLength=textWords.length();
+
+for(int=0;i<charCount<textLength;i++)
+char c;
+c = textWords.charAt(charCount);
+if (c =='\n'){
+if (charCount-lineStart>0){
+count++;
+}
+lineStart = charCount++;
+}
+}
+if ((textWords.endsWith("\n")==false) && (textLength-lineStart>0)){
+count++;
+}
+}
+
+return count
+
+
+
+
+ public int countLines() {  
+        textWords = textArea.getText(); 
+        int charCount = textWords.length();
+        int lineStart = 0;
+        for(int i = 0;i<charCount;i++){//?? i<textLength??
+            textPosition = textWords.charAt(i);
+            if (textWords.charAt(i)=='\n')
+                lineStart++;
+        }
+        return lineStart+1;
+
+
+
+
+    }
+
+public int countLines() {  
+    int Count = 0;
+    int lineStart=0;
+    getText();
+    textLength=textWords.length();
+
+    for(int charCount=0;charCount<textLength;charCount++){
+        char c;
+        c = textWords.charAt(charCount);
+        if (c =='\n' && Character.isLetter(textWords.charAt(0)) == true){
+            if (charCount-lineStart>0){
+                Count++;
+            }
+            lineStart = charCount++;
+        }
+    }
+    if ((textWords.endsWith("\n")==false) && (textLength-lineStart>0)){
+                  Count++;
+
+    }
+    return Count;
+}

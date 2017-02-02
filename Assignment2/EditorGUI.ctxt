@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EditorGUI()
+comment0.text=\r\n\ \ \ \ Make\ application\ window\ and\ create\ a\ new\ text\ formatter.\r\n
+comment1.params=
+comment1.target=void\ createGUI()
+comment1.text=\r\n\ \ \ \ Initialise\ editor\ application\ and\ set\ up\ on-screen\ display.\r\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.text=\r\n\ \ \ \ Deal\ with\ user\ action.\r\n\r\n\ \ \ \ @param\ event\ \ \ \ user\ action\r\n
+comment3.params=status
+comment3.target=void\ showStatus(java.lang.String)
+comment3.text=\r\n\ \ \ \ Display\ status\ in\ status\ field.\r\n\r\n\ \ \ \ @param\ status\ \ \ status\ message\r\n
+numComments=4
