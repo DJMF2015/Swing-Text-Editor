@@ -3,12 +3,7 @@ import java.io.*;                               // include file-handling
 import javax.swing.*; 
 import javax.swing.text.*;                          // include Swing
 
-/**
-Incomplete version of a formatter class to support a simple text editor.
 
-@author       Simon Jones (based on original code by Kenneth J. Turner)
-@version      16/11/2015
- */
 public class Formatter {
 
     // ------------------------------ Constants ------------------------------
