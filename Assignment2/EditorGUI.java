@@ -2,29 +2,7 @@ import java.awt.*;                              // include window-handling
 import java.awt.event.*;                        // include event-handling
 import javax.swing.*;                           // include Swing
 
-/**
-  Final version of the main class that supports a simple text editor. It
-  operates on text in the main area using the following functions.
 
-  <ul>
-
-    <li>Clear: remove all text</li>
-
-    <li>Lines: show a line count</li>
-
-    <li>Words: show a word count</li>
-
-    <li>Tidy: format paragraphs to fit the main area</li>
-
-    <li>Find: find text in the main area</li>
-
-    <li>Replace: find and replace text in the main area</li>
-
-  </ul>
-
-  @author       Simon Jones (based on original code by Kenneth J. Turner)
-  @version      16/11/2015
-*/
 public class EditorGUI extends JFrame implements ActionListener {
 
   // ------------------------------ Constants ------------------------------
